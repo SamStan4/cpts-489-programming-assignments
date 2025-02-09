@@ -3,126 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Importing style sheet -->
-    <link rel="stylesheet" href="./styles.css"/>
     <title>Venera Arnaoudova | Texas ECE - Electrical & Computer Engineering at UT Austin</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="page-header">
-            <img id="texas-eecs-logo" src="./images/ecelogo2.svg">
-            <input type="text" id="search-bar"/>
+    <header class="page-header alignment-test">
+        <img id="ut-ece-logo" src="./images/ut-ece-logo.svg" alt="texas ece logo">
+        <div class="search-bar-container">
+            <input class="search-input" type="text">
+            <img class="search-icon" src="./images//search-icon.svg" alt="">
         </div>
-        <div class="navigation-bar">
-            <div>
-                <button class="navigation-bar-button">
-                    ABOUT
-                </button>
-            </div>
-            <div>
-                <button class="navigation-bar-button">
-                    ACADEMICS
-                </button>
-            </div>
-            <div>
-                <button class="navigation-bar-button" id="people-button">
-                    PEOPLE
-                </button>
-            </div>
-            <div>
-                <button class="navigation-bar-button">
-                    RESARCH
-                </button>
-            </div>
-            <div>
-                <button class="navigation-bar-button">
-                    NEWS
-                </button>
-            </div>
-            <div>
-                <button class="navigation-bar-button">
-                    EVENTS
-                </button>
-            </div>
-            <div>
-                <button class="navigation-bar-button">
-                    ENGAGE
-                </button>
+    </header>
+    <nav class="nav-bar">
+        <button class="navbar-button">ABOUT</button>
+        <button class="navbar-button">ACADEMICS</button>
+        <button class="navbar-button people">PEOPLE</button>
+        <button class="navbar-button">RESARCH</button>
+        <button class="navbar-button">NEWS</button>
+        <button class="navbar-button">EVENTS</button>
+        <button class="navbar-button">ENGAGE</button>
+    </nav>
+    <main class="main-content">
+        <div class="main-content-left">
+            <div class="main-content-left-wrapper">
+                <button class="back-dir-button">BACK TO FACULTY DIRECTORY</button>
+                <img class="profile-image" src="./images/Arnaoudova_Venera.jpg">
+                <button class="email-button">venera.arnaoudova@cerc.utexas.edu</button>
+                <p class="info-text">509-000-0000</p>
+                <p class="info-text">Office: EER 4.875</p>
             </div>
         </div>
-        <div class="main-content">
-            <div class="main-content-left">
-                <button class="back-to-dir-button">
-                    BACK TO FACULTY DIERCTORY
-                </button>
-                <img id="venera-photo" src="./images/Arnaoudova_Venera.jpg" alt="Venera Arnaoudova">
-                <a class="mail-link" href="mailto:venera.arnaoudova@wsu.edu">venera.arnaoudova@utexas.edu</a>
-                <p class="under-email">000-000-0000</p>
-                <p class="under-email">Office: EME 127</p>
-            </div>
-            <div class="main-content-right">
-                <h1>Venera Arnaoudova</h1>
-                <h3>Interm Associate Director</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta orci nibh. Pellentesque laoreet leo at nunc accumsan venenatis. Sed nec rutrum neque.
-                    Nunc dapibus sollicitudin ultrices. Sed porttitor faucibus condimentum. Cras interdum facilisis elit, ut vulputate neque posuere vitae. Nam ut finibus
-                    odio. Nulla id diam eget nisi pulvinar aliquam. Cras odio neque, tincidunt sed enim nec, porta accumsan orci. Suspendisse euismod consequat tortor eu laoreet.
-                    Pellentesque ac augue nec mauris iaculis scelerisque. Aliquam in nibh vitae dolor imperdiet congue ut sodales sapien. Morbi elementum laoreet dapibus. Curabitur
-                    non sapien vel arcu facilisis laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec nulla justo. Morbi non augue sed est ultricies dictum.
+        <div class="main-content-right">
+            <div class="main-content-right-wrapper">
+                <h1 class="name-title">Venera Arnaoudova</h1>
+                <h3 class="subtitle">Professor Emeritus</h3>
+                <p class="sub-subtitle main-text">Cockrell Family Regents Chair in Engineering #8</p>
+                <p class="body-paragraph main-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat felis, sollicitudin vitae sodales sed, malesuada et risus. Praesent vel lobortis dui. Nunc volutpat nisi pretium,
+                    facilisis elit et, tempus justo. Nullam neque odio, euismod vel mi sit amet, sollicitudin pellentesque augue. Mauris sed augue ac lorem dictum tincidunt. Sed tempus iaculis cursus.
+                    Donec non tincidunt massa. Nam diam eros, tristique a justo quis, pulvinar efficitur orci. Cras nec semper felis. Praesent sed diam ut metus mattis pharetra.
                 </p>
-                <p>
-                    imperdiet malesuada urna sed sagittis. Proin blandit lacus ut dui efficitur molestie. Cras arcu urna, elementum nec turpis vehicula, porttitor rutrum arcu.
-                    Proin sed eros in ipsum accumsan fermentum. Curabitur blandit aliquet justo, fermentum maximus ex ornare vitae. Nulla mattis posuere ipsum et aliquam. Nunc vel condimentum
-                    mi. Morbi tincidunt, ligula id rutrum molestie, nisi nulla venenatis justo, sed elementum sapien ante a mauris. Donec nec urna quis sem sagittis ultricies. Pellentesque at
-                    pretium erat. Nullam et finibus turpis, a aliquam ex. Vestibulum tempus ullamcorper tempor. Sed nec purus accumsan, molestie neque vitae, laoreet ex. Ut ut sapien eu dolor
-                    ornare maximus. Maecenas lacus eros, elementum sit amet porta tincidunt, cursus vitae magna. Pellentesque dignissim nisl fermentum, dapibus sem vitae, scelerisque odio.
+                <p class="body-paragraph main-text">
+                    Aliquam ante enim, posuere a pulvinar nec, porttitor vel odio. Nullam maximus, nisl quis eleifend dictum, urna nisl consequat diam, a hendrerit nisl velit sed lorem. Vestibulum laoreet,
+                    arcu in elementum tincidunt, orci justo elementum libero, quis tempus felis nisl non magna. Etiam suscipit augue ligula, egestas fringilla sem tempor a. Nulla suscipit eros vel mattis
+                    dapibus. Sed sodales vestibulum justo sit amet convallis. Phasellus sit amet accumsan ipsum, eu ullamcorper tortor. Sed vitae nisi rhoncus, finibus est ac, condimentum tortor. Sed velit
+                    nisl, sollicitudin sit amet diam at, faucibus eleifend mi. Curabitur in luctus felis. Aenean vulputate lorem in massa sollicitudin iaculis. Nulla vehicula eu nisi ac rhoncus. Donec ut
+                    ornare sapien. Proin in enim pharetra, congue mi in, ultrices risus. Quisque et sem magna.
                 </p>
-                <h3 class="resarch-areas">Resarch Areas</h3>
-                <p class="resarch-area-text"><span class="resarch-text-span">Lingusitic Antipatterns</span></p>
-                <h3 class="resarch-areas">Resarch Interests</h3>
+                <h3 class="subtitle post-main-content">Resarch Areas</h3>
+                <button class="post-main-content-button">Linguistic Antipatterns</button>
+                <h3 class="subtitle post-main-content">Resarch Interests</h3>
                 <ul>
-                    <li>
-                        Linguistic Antipatterns
-                    </li>
-                    <li>
-                        Object Oriented Design Patterns
-                    </li>
+                    <li class="main-text">Object Oriented Design Patterns</li>
+                    <li class="main-text">Code Comprehension</li>
+                    <li class="main-text">Neurological Load</li>
                 </ul>
-                <h3 class="resarch-areas">Resarch Groups</h3>
-                <p class="resarch-area-text"><span class="resarch-text-span">Software Engineering Labratory</span></p>
+                <h3 class="subtitle post-main-content">Resarch Groups</h3>
+                <button class="post-main-content-button">Software Engineering Labratory</button>
+                <button class="google-scholar-button">GOOGLE SCHOLAR</button>
+                <h3 class="subtitle post-main-content">Related Articles</h3>
+                <ul>
+                    <li><button class="post-main-content-button">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</button></li>
+                    <li><button class="post-main-content-button">Maecenas erat felis, sollicitudin vitae sodales sed, malesuada et risus.</button></li>
+                    <li><button class="post-main-content-button">Praesent vel lobortis dui.</button></li>
+                    <li><button class="post-main-content-button">Nunc volutpat nisi pretium, facilisis elit et, tempus justo. Nullam neque odio, euismod vel mi sit amet.</button></li>
+                    <li><button class="post-main-content-button">Mauris sed augue ac lorem dictum tincidunt.</button></li>
+                </ul>
             </div>
         </div>
-        <div class="footer">
-            <div class="footer-element left-footer-element">
-                <img id="utexas-footer-img" src="./images/texts-footer.svg">
-                <div class="horizontal-separator"></div>
-                <p class="footer-policy-text">© The University of Texas at Austin 2020 | Privacy Policy | Web Accessibility</p>
+    </main>
+    <footer class="bottom-footer">
+        <div class="bottom-footer-wrapper">
+            <div class="footer-01">
+                <img id="footer-logo" src="./images/texts-footer.svg">
+                <div class="horizontal-divider"></div>
+                <p class="footer-text">© The University of Texas at Austin 2025 | Privacy Policy | Web Accessibility</p>
             </div>
-            <div class="footer-element middle-footer-element">
-                <div>
-                    <p class="footer-policy-text">ECE Direct</p>
-                    <p class="footer-policy-text">Canvas</p>
-                    <p class="footer-policy-text">ENGR Direct</p>
-                    <p class="footer-policy-text">Faculty & Staff</p>
-                    <p class="footer-policy-text">ENGR Direct</p>
-                    <p class="footer-policy-text">Students</p>
-                    <p class="footer-policy-text">UT Direct</p>
+            <div class="footer-02">
+                <div class="footer-02-01">
+                    <p class="footer-text">ECE Direct</p>
+                    <p class="footer-text">Canvas</p>
+                    <p class="footer-text">ENGR Direct<br>Faculty & staff</p>
+                    <p class="footer-text">ENGR Direct<br>Students</p>
+                    <p class="footer-text">UT Direct</p>
                 </div>
-                <div class="middle-right-element">
-                    <p class="footer-policy-text">ECE Direct</p>
-                    <p class="footer-policy-text">Canvas</p>
-                    <p class="footer-policy-text">ENGR Direct</p>
-                    <p class="footer-policy-text">Faculty & Staff</p>
-                    <p class="footer-policy-text">ENGR Direct</p>
-                    <p class="footer-policy-text">Students</p>
-                    <p class="footer-policy-text">UT Direct</p>
+                <div class="footer-02-01">
+                    <p class="footer-text">UT Directory</p>
+                    <p class="footer-text">Contact Us</p>
+                    <p class="footer-text">Giving</p>
+                    <p class="footer-text">User Login</p>
+                    <p class="footer-text">Subscribe to<br>Emails</p>
                 </div>
-                <div class="vertical-divider"></div>
-            </div>
-            <div class="footer-element">
-                <p class="follow">FOLLOW TEXAS ECE</p>
+                <div class="footer-03">
+                    <h3 class="follow-text">FOLLOW TEXAS ECE</h3>
+                    <div class="social-image-container">
+                        <img class="social-image-svg" src="./images/X-logo-ko.svg" alt="">
+                        <img class="social-image-svg" src="./images/Instagram-logo-ko.svg" alt="">
+                        <img class="social-image-svg" src="./images/YouTube-logo-ko.svg" alt="">
+                        <img class="social-image-svg" src="./images/Facebook-logo-ko.svg" alt="">
+                        <img class="social-image-svg" src="./images/LinkedIn-logo-ko.svg" alt="">
+                        <img class="social-image-svg" src="./images/Flickr-logo-ko.svg" alt="">
+                        <img class="social-image-svg" src="./images/Bluesky-logo-ko.svg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
